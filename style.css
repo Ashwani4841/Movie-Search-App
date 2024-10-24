@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #dddbdb;
+    color: black;
+}
+.nav{
+    display: flex;
+    background-color: rgb(3, 3, 29);
+    color: white;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+.searchBar{
+    display: flex;
+}
+
+#searchInput{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    width: 100%;
+    font-size: 16px;
+}
+
+#searchBtn{
+    padding: 6px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(135, 216, 53);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+} 
+
+#searchBtn:hover{
+    background-color: chartreuse;
+}
+
+.card{
+    margin-top: 60px;
+}
+.div{
+    display: flex;
+    background-color: white;
+    padding: 22px;
+    margin: auto;
+    width: 1000px;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+.cardText h1{
+    text-align: center;
+}
+.Ratings{
+    text-align: center;
+    margin-top: 35px;
+}
+.Genre{
+    background-color: rgb(211, 164, 63);
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
+    width: 80%;
+    padding: 7px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+.cardText p{
+    margin-top: 25px;
+}
+.cardText{
+    margin-top: 23px;
+}
+.cardText span{
+    color: rgb(25, 130, 25);
+}
+
+.card h1{
+    text-align: center;
+    align-items: center;
+}
+
+@media(max-width:1050px) {
+    .cardText{
+        width: 90%;
+    }
+}
+@media (max-width:750px){
+    .nav{
+        display: block;
+        height: 120px;
+    }
+    .searchBar{
+        display: flex;
+        justify-content: center;
+        margin-top: 11px;
+    }
+    .logo{
+        text-align: center;
+    }
+    .div{
+        display: block;
+        text-align: center;
+        width: 80%;
+    }
+}
+@media (max-width:450px){
+    .searchBar input{
+        width: 50%;
+    }
+    .searchBar button{
+        margin-inline: 3px;
+        font-size: 15px;
+    }
+    .div img{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
