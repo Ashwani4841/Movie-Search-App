@@ -1,6 +1,6 @@
 The Movie Search App allows users to search for movies and retrieve detailed information, including titles, posters, release dates, genres, and plot summaries, directly from the OMDb API. With a sleek and responsive design, the app provides a seamless user experience, making it easy to explore your favorite films.
 
-🔍 Key Features:
+🔍 Key Features:-
 
 Search Functionality: Instantly search for movies by title.
 Movie Details: View essential movie information like ratings, actors, and plot.
