@@ -9,5 +9,4 @@ Responsive Design: Optimized for desktop and mobile devices.
 This app was built using HTML, CSS, and JavaScript, integrating API calls to fetch dynamic movie content.
 
 Website link: https://movie-search-app41.netlify.app
-
 Email:ashwanigiri7236@gmail.com
